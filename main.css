@@ -559,6 +559,9 @@ a:focus {
 .logo {
 	max-width: 120px;
 	margin: 0 auto 21px;
+	position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 .logo img {
@@ -591,4 +594,9 @@ a:focus {
 
 .container h1 b {
 	font-weight: 900;
+}
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
 }
